@@ -1,0 +1,64 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  background-color: #eceeee;
+}
+
+.task-list-container {
+  margin: 25px;
+  flex-grow: 1;
+}
+
+.task-list-container + .task-list-container {
+  margin-left: 0;
+}
+
+.task-list-header {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  height: 30px;
+}
+
+.column1{
+  background-color: #8e6e95;
+}
+.column2{
+  background-color: #39a59c;
+}
+.column3{
+  background-color: #344759;
+}
+.column4{
+  background-color: #e8741e;
+  box-sizing: border-box;
+}
+
+/* task */
+.task-list {
+  margin: 0;
+  padding: 0;
+}
+
+.task-list li {
+  display: block;
+  margin-top: 5px;
+  background-color: #fff;
+}
+
+.task-item {
+  padding: 14px 8px;
+}
+
+.task-item.move {
+}
